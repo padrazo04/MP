@@ -1,0 +1,8 @@
+fprintf, fscanf para E/S con Formato
+fgets, fputs para E/S de Líneas
+
+f=fopen(nombreFichero, "r");
+
+CONTAR REGISTROS-> Tipica de ejercicio eliminatorio.
+
+sscanf, sprintf

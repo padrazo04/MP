@@ -1,0 +1,37 @@
+Borrado:
+SI (ENCUENTRO LO QUE QUIERO BORRAR)
+	NO LO COPIO
+SI_NO
+	SÍ LO COPIO
+CIERRO FICHEROS Y BORRO EL ANTIGUO
+
+Actualizado:
+SI (ENCUENTRO LO QUE QUIERO BORRAR)
+	LO COPIO ACTUALIZADO
+SI_NO
+	LO COPIO NORMAL
+CIERRO FICHEROS, BORRO EL ANTIGUO Y LE DOY EL NOMBRE DEL ANTIGUO
+
+int borraporDni(char *fichero, long dni) {
+
+	FILE* f1, f2;
+	struct DatosPersonales auxiliar;
+	int encontrado=0;
+
+	f1=fopen(fichero, "r");
+	f2=fopen("temporal.txt", "r");
+
+	while(fscanf(f1, "%ld%s%s&f", &auxiliar.dni, auxiliar.nombre,
+			auxiliar.apellido, &auxiliar.salario)!=EOF);
+	{
+		if(auxiliar.dni != dni)
+			fprintf(f2, "%ld%s%s%f", auxiliar.dni, auxiliar, nombre, 
+			auxiliar.apellido, auxiliar.salario);
+		else encontr	
+	}
+	
+	fclose(f1);
+	fclose(f2);
+	remove(fichero);
+	rename("temporal.txt", fichero);
+}

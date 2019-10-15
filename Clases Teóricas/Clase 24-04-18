@@ -1,0 +1,26 @@
+Listas de Struct:
+
+struct lista {
+	int x;
+	struct lista *siguiente;
+}
+
+struct lista *nuevoElemento(){
+	return((struct lista**)malloc(sizeof(struct lista)));
+}
+
+Tipos de funciones:
+	- Insertar delante
+	- Imprimir lista
+	- Imprimir lista recursiva inversa.
+	- Imprimir lista recursiva
+	- Buscar Elemento
+	- Insertar Detras
+	- Borrar elemento
+	- Borrar elemento recursivo	
+
+BUCLE ESTRELLA --> 	aux= cabeza
+					while(aux != NULL)
+						aux=aux->sig;
+
+

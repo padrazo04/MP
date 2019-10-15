@@ -1,0 +1,9 @@
+Hola
+Yo
+25.400000 13
+Adios
+Tu
+5.400000 34
+Hola
+Yootravez
+43.299999 18

@@ -1,0 +1,29 @@
+Presentación de Eva
+Micro a la vuelta de Semana Santa con una mezcla de un poco de todo.
+
+	Documentar .h con Doxygen(@file y descrip)		
+
+Doxygen: Crear documentos a partir de comentarios
+
+	Para que lea los comentarios: (Estilo C)
+		- /** (No tan breve)
+		- /// (Una linea: breve)
+	Para que lea los comentarios: (Estilo Qt)
+		- /*!
+		- //!
+	Si se escribe después de una función añadir: <
+	Existen comandos para dejar mas pro el documento:
+		@fn		@param	@pre
+		@brief	@author	@post	@file (Importante)
+	Para descripcion detallada dejar una linea en blanco.
+
+doxygen -g <namefichero>	<<---Crea un archivo de configuración
+doxygen <ficheroconfiguracion> <<---Crea la documentacion.txt
+
+Para comprobar que todo está correcto abrir index.html
+
+Documentación:
+	- Interna: Comentarios
+	- Externa: man, doxygen, etc
+Ni calvo ni con tres pelucas
+

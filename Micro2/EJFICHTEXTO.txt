@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------
+									MICRO 2
+------------------------------------------------------------------------------------
+En el fichero alumnos.txt se encuentran los datos de los alumnos de una clase
+estructurados de la siguiente forma: nombre, apellidos, edad y un campo que registra
+si el alumno cursa bilingue o no (1: SI 0: NO).
+
+El ejercicio consiste en aumentar en 1 una edad X que el usuario introducirá en el
+programa a los alumnos con dicha edad.
+
+Debe tener en cuenta a la hora de elaborar su programa:
+
+	- Debe realizar un fichero main.c funciones.c funciones.h
+	- El programa debe comprobar si el fichero existe
+	- Al programa se le pasará el nombre del fichero como argumento en la linea de
+	comandos
+	- Los ficheros deben abrirse y cerrarse dentro de sus respectivas funciones
+
+NOTAS:
+
+	- Los campos no contienen espacios en blanco
+	- Para crear el ejecutable de utilizar la herramienta makefile
+
+------------------------------------------------------------------------------------

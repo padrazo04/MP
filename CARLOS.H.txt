@@ -1,0 +1,11 @@
+void quitaIntros(char *cad1)
+cad1[strlen(cad1)-1]='\0';
+
+void** reservaMatriz(int nFil, int nCOl)
+void rellenaMatriz
+void rellenaMatrizAleatorio
+void imprimematrizEnteros
+void imprimeMatrizFlotantes
+void liberaMemoria
+
+define MAX 30

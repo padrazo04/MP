@@ -1,0 +1,22 @@
+CLASE 13/03/18
+---------------
+gcc está formado por tres programas:
+	- Preprocesador
+	- CC
+	- Linker (Enlazador)
+Librerías: Formadas por tres partes:
+
+	- Archivo.c (Donde está el codigo de la función) -> Archivo.o (Objeto)
+
+	- archivo.a (Donde unimos todas las funciones) gcc -c (-c -> Flash para no utilizar linker)
+
+		(Es como un zip, pero sin serlo, simplemente guarda los distintos .o)
+		(Para crear estos .a deberemos usar el comando: ar -rsv libm.a sqrt.o cos.o 				sin.o ...)
+		(Siempre deben llevar ser lib(nombre) --> libmath)
+		(.a significa que es estática, también hay dinámicas .so)
+		(Las librerías suelen estar en /usr/lib)
+		(-lm --> Buscame la librería m en los directorios del sistema)
+
+	- archivo.h
+		(Conforma junto al .a la biblioteca, actua como interfaz donde están
+		declaradas las variables locales).

@@ -1,0 +1,80 @@
+Fichero/Flujo/Stream
+PASOS:
+	1. Abrir fichero
+	2. Procesar fichero
+	3. Cerrar fichero
+
+Al ejecutar un programa se abren tres flujos:
+	1. stdin
+	2. stdout
+	3. sterr
+
+FILE -> Estructura que trabaja
+Buffer -> Vector intermedio que cada cierto tiempo intercambia datos con el disco
+Cursor -> Posición actual donde se está trabajando.
+
+TIPOS DE FICHEROS
+--------------------------------------------------------
+spring
+25
+10
+suprememe
+7.5
+30
+segmentation fault
+50.4
+5
+
+//Bytes de gratis, que ocupan memoria y no sirven
+modelo: spring
+precio:25
+unidades: 10
+
+Hay que separar los distintos campos con separadores *
+--------------------------------------------------------
+
+Abrir un fichero: Establece una conexión entre mi programa y el fichero.
+
+MODOS DE ABRIRLO
+--------------------------------------------------------
+r Lectura
+w Escritura
+No abrir en modo escritura ficheros ya creados
+a Adición
+Modos mixtos: r+, w+, a+ ;
+
+FUNCIÓN: Comprobar si existe un fichero
+
+EOF -> Constante entera definida en stdio que equivale a -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

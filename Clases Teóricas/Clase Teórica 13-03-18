@@ -1,0 +1,9 @@
+Clase Teórica 13/03/18
+-----------------------
+Recursividad: Problema que se puede definir en base a otro más sencillo hasta llegar a un caso base. (factorial)
+La recursividad puede ser:
+	- Directa: Como el del factorial
+		CASO BASE Y CASO NO BASE
+	- Indirecta
+Ejercicios de Factorial y de Potencia
+Ejercicios de Suma de Digitos y de Fibonacci.
